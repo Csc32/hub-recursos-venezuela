@@ -1,4 +1,4 @@
-FROM node:20-alpine
+FROM node:24.18-alpine
 
 # Instalar pnpm de forma global
 RUN corepack enable && corepack prepare pnpm@latest --activate

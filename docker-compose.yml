@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    container_name: hub-recursos-venezuela
+    volumes:
+      - ./app:/app
+      # Esto evita que los node_modules locales interfieran con los del contenedor
+      - /app/node_modules
+    ports:
+      - "4321:4321"
+    # Esto mantiene el contenedor encendido aunque no haya procesos activos
+    tty: true
+    stdin_open: true
