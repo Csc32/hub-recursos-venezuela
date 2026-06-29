@@ -142,5 +142,11 @@
     "descripcion": "Esta plataforma conecta familias, voluntarios y comunidades para localizar personas, mascotas y edificaciones afectadas por el terremoto. Además, permite denunciar irregularidades y coordinar ayuda humanitaria.",
     "url": "https://sosven.site/index.html#inicio",
     "categoria": "Protección y Familia"
+  },
+  {
+    "titulo": "Rescate VE",
+    "descripcion": "Pagina para solicitar rescate y emergencia",
+    "url": "https://rescate-ve.vercel.app/",
+    "categoria": "Emergencia"
   }
 ]
