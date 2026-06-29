@@ -1,0 +1,14 @@
+[
+    {
+         "titulo": "Venezuela te busca",
+         "descripcion": "Venezuela te busca es un portal para buscar a las personas desaparecidas en Venezuela a causa de los desvatadores terremotos ocurridos el pasado 24 de junio del año 2026",
+         "url": "https://venezuelatebusca.com/",
+         "categoria": "Emergencia"
+    },
+    {
+        "titulo": "Ingenieros por Venezuela",
+        "descripcion": "Registro para el reporte de daños en viviendas o registro de voluntarios para la evaluacion de viviendas afectadas",
+        "url": "https://habitable.lovable.app/",
+        "categoria": "Infraestructura y Seguridad"
+    }
+]

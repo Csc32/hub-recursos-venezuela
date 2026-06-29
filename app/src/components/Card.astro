@@ -1,0 +1,35 @@
+---
+interface Props {
+  titulo: string;
+  descripcion: string;
+  url: string;
+  categoria: string;
+}
+
+const { titulo, descripcion, url, categoria } = Astro.props;
+---
+
+<div
+  class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-300 flex flex-col h-full"
+>
+  <div class="flex items-center mb-4">
+    <span
+      class="px-3 py-1 text-xs font-bold tracking-wider uppercase text-blue-600 bg-blue-50 rounded-full"
+    >
+      {categoria}
+    </span>
+  </div>
+
+  <h3 class="text-2xl font-extrabold text-slate-800 mb-3">{titulo}</h3>
+  <p class="text-slate-600 mb-8 flex-grow leading-relaxed">
+    {descripcion}
+  </p>
+
+  <a
+    href={url}
+    target="_blank"
+    class="text-center w-full py-3 px-4 bg-slate-900 text-white font-semibold rounded-xl hover:bg-blue-600 transition-colors"
+  >
+    Acceder al recurso
+  </a>
+</div>
