@@ -130,5 +130,16 @@
     "descripcion": "Campaña verificada para recaudación de fondos.",
     "url": "https://gofundme.com/c/act/venezuela-earthquake-relief",
     "categoria": "Donaciones"
+  },
+  {
+    "titulo": "Bot de Localización de Pacientes — Sismo Venezuela",
+    "descripcion": "Este bot te ayuda a encontrar a familiares ingresados en hospitales tras el sismo. Los datos se actualizan automáticamente cada 5 minutos desde el consolidado oficial.",
+    "url": "https://t.me/busqueda_vzla_temblor_bot",
+    "categoria": "Emergencia"
+  },
+  {
+    "titulo": "SOSVEN",
+    "descripcion": "Esta plataforma conecta familias, voluntarios y comunidades para localizar personas, mascotas y edificaciones afectadas por el terremoto. Además, permite denunciar irregularidades y coordinar ayuda humanitaria.",
+    "url": "https://sosven.site/index.html#inicio"
   }
 ]
