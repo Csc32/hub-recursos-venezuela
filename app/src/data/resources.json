@@ -1,14 +1,134 @@
 [
-    {
-         "titulo": "Venezuela te busca",
-         "descripcion": "Venezuela te busca es un portal para buscar a las personas desaparecidas en Venezuela a causa de los desvatadores terremotos ocurridos el pasado 24 de junio del año 2026",
-         "url": "https://venezuelatebusca.com/",
-         "categoria": "Emergencia"
-    },
-    {
-        "titulo": "Ingenieros por Venezuela",
-        "descripcion": "Registro para el reporte de daños en viviendas o registro de voluntarios para la evaluacion de viviendas afectadas",
-        "url": "https://habitable.lovable.app/",
-        "categoria": "Infraestructura y Seguridad"
-    }
+  {
+    "titulo": "Reencuentro Seguro",
+    "descripcion": "Protección de niños y reunificación familiar.",
+    "url": "https://reenencuentroseguro.com",
+    "categoria": "Protección y Familia"
+  },
+  {
+    "titulo": "Venezuela te busca",
+    "descripcion": "Portal para buscar personas desaparecidas a causa del terremoto.",
+    "url": "https://venezuelatebusca.com",
+    "categoria": "Emergencia"
+  },
+  {
+    "titulo": "Venezuela Reporta",
+    "descripcion": "Reporte y búsqueda de personas desaparecidas.",
+    "url": "https://venezuelareporta.org",
+    "categoria": "Emergencia"
+  },
+  {
+    "titulo": "Desaparecidos Terremoto Venezuela",
+    "descripcion": "Plataforma de búsqueda de personas desaparecidas.",
+    "url": "https://desaparecidosterremotovenezuela.com",
+    "categoria": "Emergencia"
+  },
+  {
+    "titulo": "Hazlo Hoy - Terremoto",
+    "descripcion": "Registro y búsqueda de personas y campañas de apoyo.",
+    "url": "https://terremoto.hazlohoy.org",
+    "categoria": "Emergencia"
+  },
+  {
+    "titulo": "Red Ayuda Venezuela",
+    "descripcion": "Plataforma de reporte y búsqueda de personas.",
+    "url": "https://redayudavenezuela.com",
+    "categoria": "Emergencia"
+  },
+  {
+    "titulo": "SOS Venezuela 2026",
+    "descripcion": "Portal de ayuda y búsqueda ante el sismo.",
+    "url": "https://sosvenezuela2026.com",
+    "categoria": "Emergencia"
+  },
+  {
+    "titulo": "Pacientes Terremoto Venezuela",
+    "descripcion": "Listado y seguimiento de personas hospitalizadas.",
+    "url": "https://pacientesterremotovzla.lovable.app",
+    "categoria": "Salud"
+  },
+  {
+    "titulo": "Hospitales en Venezuela",
+    "descripcion": "Información sobre disponibilidad y ubicación de centros de salud.",
+    "url": "https://hospitalesenvenezuela.com",
+    "categoria": "Salud"
+  },
+  {
+    "titulo": "Venemergencia",
+    "descripcion": "Atención médica especializada y telemedicina.",
+    "url": "https://venemergencia.com",
+    "categoria": "Salud"
+  },
+  {
+    "titulo": "Nueve Once",
+    "descripcion": "Atención médica de urgencia y asistencia médica.",
+    "url": "https://nueveonce.com",
+    "categoria": "Salud"
+  },
+  {
+    "titulo": "Alimenta la Solidaridad",
+    "descripcion": "Gestión de alimentación y apoyo nutricional.",
+    "url": "https://alimentalasolidaridad.org",
+    "categoria": "Alimentación y Refugios"
+  },
+  {
+    "titulo": "Programa Mundial de Alimentos (WFP)",
+    "descripcion": "Asistencia alimentaria internacional.",
+    "url": "https://wfp.org",
+    "categoria": "Alimentación y Refugios"
+  },
+  {
+    "titulo": "World Central Kitchen (WCK)",
+    "descripcion": "Distribución de comidas calientes en zonas de desastre.",
+    "url": "https://wck.org",
+    "categoria": "Alimentación y Refugios"
+  },
+  {
+    "titulo": "Refugios Venezuela",
+    "descripcion": "Mapa y listado de refugios disponibles.",
+    "url": "https://refugiosvenezuela.com",
+    "categoria": "Alimentación y Refugios"
+  },
+  {
+    "titulo": "Zona Segura",
+    "descripcion": "Ubicación de zonas seguras y refugios temporales.",
+    "url": "https://zonasegura.up.railway.app",
+    "categoria": "Alimentación y Refugios"
+  },
+  {
+    "titulo": "Huellas Can - Terremoto",
+    "descripcion": "Asistencia y resguardo para mascotas afectadas.",
+    "url": "https://huellascan.com/terremoto",
+    "categoria": "Mascotas"
+  },
+  {
+    "titulo": "Ingenieros por Venezuela (Habitable)",
+    "descripcion": "Reporte de daños en viviendas y evaluación estructural.",
+    "url": "https://habitable.lovable.app",
+    "categoria": "Infraestructura y Seguridad"
+  },
+  {
+    "titulo": "Sismo Ayuda Venezuela",
+    "descripcion": "Evaluación técnica de viviendas afectadas.",
+    "url": "https://sismoayudave.com",
+    "categoria": "Infraestructura y Seguridad"
+  },
+  {
+    "titulo": "Ayuda para Venezuela",
+    "descripcion": "Centros de acopio y logística de ayuda.",
+    "url": "https://ayudaparavenezuela.com",
+    "categoria": "Donaciones"
+  },
+  {
+    "titulo": "VeneConnect",
+    "descripcion": "Coordinación de apoyo para el terremoto.",
+    "url": "https://veneconnect.com/apoyo-terremoto",
+    "categoria": "Donaciones"
+  },
+  {
+    "titulo": "GoFundMe - Venezuela Earthquake Relief",
+    "descripcion": "Campaña verificada para recaudación de fondos.",
+    "url": "https://gofundme.com/c/act/venezuela-earthquake-relief",
+    "categoria": "Donaciones"
+  }
 ]
