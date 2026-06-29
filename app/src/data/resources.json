@@ -154,5 +154,11 @@
     "descripcion": "Plataforma que conecta de forma gratutita con profesionales voluntarios, dentro y fuera de venezuela por WhatsApp.",
     "url": "https://efecto-red.com/",
     "categoria": "Emergencia"
+  },
+  {
+    "titulo": "Ayuda en Camino",
+    "descripcion": "Plataforma para ver en tiempo real los lugares donde se necesita ayuda y asistencia.",
+    "url": "https://ayudaencamino.com/",
+    "categoria": "Emergencia"
   }
 ]
