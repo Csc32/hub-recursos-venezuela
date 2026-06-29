@@ -148,5 +148,11 @@
     "descripcion": "Pagina para solicitar rescate y emergencia",
     "url": "https://rescate-ve.vercel.app/",
     "categoria": "Emergencia"
+  },
+  {
+    "titulo": "Efecto Red Yummy",
+    "descripcion": "Plataforma que conecta de forma gratutita con profesionales voluntarios, dentro y fuera de venezuela por WhatsApp.",
+    "url": "https://efecto-red.com/",
+    "categoria": "Emergencia"
   }
 ]
