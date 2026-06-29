@@ -6,52 +6,46 @@ import resources from "../data/resources.json";
 ---
 
 <Main title="Hub de Recursos">
-  <header class="text-center mb-12">
-    <h1 class="text-5xl font-extrabold text-slate-900 mb-4">Hub de Recursos</h1>
-    <p class="text-slate-500 text-lg">
-      Aqui puedes consultar las herramientas creadas por la comunidad de
-      Venezuela para ayudar a los ciudadanos a acceder a información y servicios
-      importantes.
-    </p>
-  </header>
+	<header class="text-center mb-12">
+		<h1 class="text-5xl font-extrabold text-slate-900 mb-4">Hub de Recursos</h1>
+		<p class="text-slate-500 text-lg">
+			Aqui puedes consultar las herramientas creadas por la comunidad de Venezuela para ayudar a los ciudadanos a
+			acceder a información y servicios importantes.
+		</p>
+	</header>
 
-  <SearchBar />
+	<SearchBar />
 
-  <div id="cardContainer" class="grid grid-cols-1 md:grid-cols-2 gap-8">
-    {
-      resources.map((item) => (
-        <div
-          class="card-item"
-          data-titulo={item.titulo.toLowerCase()}
-          data-categoria={item.categoria.toLowerCase()}
-          data-descripcion={item.descripcion.toLowerCase()}
-        >
-          <Card {...item} />
-        </div>
-      ))
-    }
-  </div>
+	<div id="cardContainer" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+		{
+			resources.map((item) => (
+				<div
+					class="card-item"
+					data-titulo={item.titulo.toLowerCase()}
+					data-categoria={item.categoria.toLowerCase()}
+					data-descripcion={item.descripcion.toLowerCase()}>
+					<Card {...item} />
+				</div>
+			))
+		}
+	</div>
 </Main>
 
 <script>
-  document.addEventListener("search", ((e: CustomEvent) => {
-    const value = e.detail;
-    const cards = document.querySelectorAll(".card-item");
+	document.addEventListener("search", ((e: CustomEvent) => {
+		const value = e.detail;
+		const cards = document.querySelectorAll(".card-item");
 
-    cards.forEach((card) => {
-      const el = card as HTMLElement;
-      const titulo = el.dataset.titulo || "";
-      const categoria = el.dataset.categoria || "";
-      const descripcion = el.dataset.descripcion || "";
-      if (
-        titulo.includes(value) ||
-        categoria.includes(value) ||
-        descripcion.includes(value)
-      ) {
-        el.style.display = "block";
-      } else {
-        el.style.display = "none";
-      }
-    });
-  }) as EventListener);
+		cards.forEach((card) => {
+			const el = card as HTMLElement;
+			const titulo = el.dataset.titulo || "";
+			const categoria = el.dataset.categoria || "";
+			const descripcion = el.dataset.descripcion || "";
+			if (titulo.includes(value) || categoria.includes(value) || descripcion.includes(value)) {
+				el.style.display = "block";
+			} else {
+				el.style.display = "none";
+			}
+		});
+	}) as EventListener);
 </script>
