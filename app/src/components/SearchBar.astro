@@ -1,18 +1,18 @@
 <div class="relative mb-10">
-  <input
-    type="text"
-    id="searchBar"
-    placeholder="Buscar por nombre o categoría..."
-    class="w-full pl-6 pr-4 py-4 rounded-2xl border-none shadow-md focus:ring-4 focus:ring-blue-100 transition-all text-lg"
-  />
+	<input
+		type="text"
+		id="searchBar"
+		placeholder="Buscar por nombre, categoría o descripción..."
+		class="w-full pl-6 pr-4 py-4 rounded-2xl border-none shadow-md focus:ring-4 focus:ring-blue-100 transition-all text-lg"
+	/>
 </div>
 <script>
-  const searchBar = document.getElementById("searchBar") as HTMLInputElement;
+	const searchBar = document.getElementById("searchBar") as HTMLInputElement;
 
-  searchBar.addEventListener("input", (e) => {
-    const value = (e.target as HTMLInputElement).value.toLowerCase();
+	searchBar.addEventListener("input", (e) => {
+		const value = (e.target as HTMLInputElement).value.toLowerCase();
 
-    // Disparamos un evento global que el index.astro va a escuchar
-    document.dispatchEvent(new CustomEvent("search", { detail: value }));
-  });
+		// Disparamos un evento global que el index.astro va a escuchar
+		document.dispatchEvent(new CustomEvent("search", { detail: value }));
+	});
 </script>
